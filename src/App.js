@@ -39,7 +39,7 @@ const theme = {
   base0F: '#cc6633',
 };
 
-
+ 
 
 const jsonTreePorp = {
   shouldExpandNode: (keyPath, data, level) => false,
@@ -52,7 +52,7 @@ const jsonTreePorp = {
 
 }
 
-
+ 
 function App() {
 
   const [json, setJson] = useState({})
